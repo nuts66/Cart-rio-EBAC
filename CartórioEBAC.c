@@ -133,7 +133,8 @@ int main() // função
         printf("Selecione abaixo a opção desejada no menu:\n\n");
         printf("\t\t1 Adicionar nomes\n");
         printf("\t\t2 Consultar nomes\n");
-        printf("\t\t3 Deletar nomes\n\n\n"); 	   
+        printf("\t\t3 Deletar nomes\n");
+		printf("\t\t4 Sair do sistema\n\n\n");	   
         printf("Software pelo aluno da EBAC:\n Douglas Henning\n tenha um bom dia\n");
         printf("Opção:");
 	
@@ -153,6 +154,11 @@ int main() // função
 	        
 	        case 3:
 	        deletar();
+	        break;
+	        
+	        case 4:
+	        printf("Valeu por utilizar o sistema!! :)\n\n\n");
+	        return 0; //retornamos o valor a zero, assim quebrando todos os laços e funções e saindo do sistema
 	        break;
 	        
 				
